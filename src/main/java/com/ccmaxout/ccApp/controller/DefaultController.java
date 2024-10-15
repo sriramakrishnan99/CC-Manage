@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class DefaultController {
-    @GetMapping("/welcome")
+    @GetMapping("/")
     public String welcome(){
         return "{ \"application-name\" : \"CC-MaxOut\" }";
     }
