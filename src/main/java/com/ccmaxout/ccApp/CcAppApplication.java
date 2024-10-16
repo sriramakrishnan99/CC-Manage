@@ -8,7 +8,7 @@ public class CcAppApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(CcAppApplication.class, args);
-		System.out.println("Hello, I am CC-Max-Out");
+		System.out.println("Hello, I am cc-max-out-api");
 	}
 
 }
