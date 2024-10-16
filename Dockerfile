@@ -21,7 +21,6 @@ RUN dos2unix ./mvnw
 
 #This line will add the project dependency in the container during the build
 RUN ./mvnw dependency:resolve
-EXPOSE 8002
 
 COPY src ./src
 CMD ["./mvnw", "spring-boot:run"]
